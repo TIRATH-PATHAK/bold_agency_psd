@@ -1,0 +1,787 @@
+/* Global CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@700&family=Raleway:ital,wght@0,400;0,700;1,700&family=Source+Sans+Pro:ital,wght@0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+@font-face {
+    font-family: myriadpro;
+    src: url(Myriad.ttf);
+}
+
+textarea{
+    max-height: 173px;
+    max-width: 550px;
+    min-height: 173px;
+    min-width: 550px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Raleway, sans-serif;
+    font-size: 23px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.container{
+    max-width: 1920px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+img{
+    vertical-align: middle;
+    height: auto;
+    max-width: 100%;
+}
+
+/* Header Section */
+
+header{
+    background: url('../assets/images/background.png');
+    padding: 2%;
+    
+    padding-bottom: 21%;
+   
+}
+
+#logo{
+    font-size: 25px;
+    line-height: 17px;
+    color: white;
+    font-family: BenchNine, sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-left: 8px;
+    padding-top: 2px;
+   
+    
+}
+
+.logo a{
+    text-decoration: none;
+     
+}
+
+.left_right .logo{
+    /* margin-top: 3.2%; */
+    /* margin-left: 91px; */
+    width: 50%;
+   float: left;
+}
+
+.left_right ul li{
+    display: inline-block;
+    list-style-type: none;
+    font-family: Bebas Neue, sans-serif;
+    padding: 10px 17.4px 10px 17.4px;
+    margin-top: 4px;
+    /* margin-left: 1px; */
+   
+    letter-spacing: 2px;
+    font-size: 17px;
+    line-height: 20px;
+    border: 1px solid #a3a4a4;
+   
+    text-transform: uppercase;
+
+}
+
+.left_right ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.left_right ul{
+    width: 36%;
+
+    margin-left: 65.3%;
+}
+
+.left_right ul li:hover{
+    border: 1px solid white;
+    
+}
+
+.header_image img{
+    margin-top: 14.89%;
+    margin-left: 25.75%;
+}
+
+/* Services Section */
+
+.servicesSection .topTitle{
+    margin-top: 7%;
+}
+
+.servicesSection .topTitle h2{
+    text-align: center;
+    font-family: BenchNine, sans-serif;
+    font-size: 65px;
+    margin-bottom: 0%;
+}
+
+.servicesSection .topTitle p{
+    font-family: Raleway, sans-serif;
+    font-size: 15.99px;
+    text-align: center;
+    width: 55%;
+    line-height: 22.99px;
+    
+    margin-left: 23%;
+}
+
+.solid{
+    width: 8%;
+    margin-top: 0.3%;
+    height: 6px;
+    background-color: red;
+}
+
+.middleNavigation .navigationBlock{
+  width: 15%;
+  margin-left: 2%;    
+  display: inline-block;
+}
+.middleNavigation{
+    display: block;
+    margin: 0 auto;
+    margin-left: 17.5%;
+    margin-top: 2.7%;
+    width: 72%;
+}
+
+.middleNavigation .navigationBlock i{
+   
+    width: 30%;
+    margin-left: 40%;
+}
+
+.navigationBlock .icon{
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.navigationBlock:hover i{
+    color: #dc4236;
+}
+
+
+.middleNavigation .navigationBlock button{
+    margin-top: 10%;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    padding-left: 0%;
+    text-align: center;
+    font-size: 15px;
+    border-color: white;
+    color: white;
+    text-transform: uppercase;
+    background-color: #bfb7b5;
+    width: 115%;
+  
+   
+}
+
+.middleNavigation button:hover{
+    background-color: #dc4236;
+}
+
+
+.BrandingImage .image_bri{
+    width: 33.5%;
+   float: left;
+    margin-left: 17%;
+    margin-top: 5%;
+}
+
+/* Branding Body Section */
+
+.BrandingBody .title_brandbody{
+    margin-top: 4.5%;
+    float: left;
+  
+}
+
+.title_brandbody h2{
+    font-size: 35px;
+    color: #211e1e;
+    
+}
+
+.title_brandbody h3{
+    font-size: 15px;
+    margin-top: 2.5%;
+    margin-left: 2%;
+    font-family: Source Sans Pro, sans-serif;
+    margin-bottom: 4.5%;
+    color: #726a69;
+}
+
+.title_brandbody p{
+    width: 100%;
+    font-size: 14px;
+    padding-top: 0%;
+    color: #726a69;
+    margin-left: 2%;
+
+    font-family: Source Sans Pro, sans-serif;
+    
+}
+
+.title_brandbody h2, h3{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Logo & Quote Section */
+
+.BrandingLogoQuote .logo img{
+    margin-top: 5%;
+    margin-left: 3.7%;
+}
+
+.BrandingLogoQuote .quoteTitle{
+    background: url('../assets/images/bg.png');
+    width: 33%;
+    margin-left: 50.5%;
+    margin-top: 1.5%;
+    padding: 2%;
+    margin-bottom: 0%;
+}
+
+.BrandingLogoQuote .quoteTitle h3{
+    font-size: 19px;
+    font-weight: bold;
+    font-style: italic;
+    color: #726a69;
+}
+
+.BrandingLogoQuote .quoteTitle p{
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.7;
+    margin-top: 1.6%;
+    font-family: Source Sabs Pro, sans-serif;
+    color: #726a69;
+}
+
+.BrandingLogoQuote .doubleQuotes img{
+        margin-left: 7%;
+        top: 38px;
+        background: url('../assets/images/ellipse.png');
+        width: 2.5%;
+        position: relative;
+    
+}
+
+
+.related_pro h2{
+    margin-top: 0.4%;
+    color: #1e1e1e;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.related_pro .relatedImages{
+    margin-top: 0%;
+}
+
+.related_pro .OrderContact{
+    margin-top: 2%;
+
+  
+    
+}
+
+
+
+.OrderNow h3{
+    font-size: 15px;
+    border: 1px solid black;
+    width: 10%;
+    margin-left: 50.5%;
+    border-color: #dc4236;
+    background-color: white;
+    color: #dc4236;
+    line-height: 17px;
+    text-align: center;
+    float: left;
+}
+
+.ContactUs h3{
+    font-size: 15px;
+    border: 1px solid black;
+    width: 10%;
+    margin-left: 0.3%;
+    padding-top: 0.9%;
+    padding-bottom: 0.8%;
+    border-color: #dc4236;
+    background-color: #dc4236;
+    color: white;
+    line-height: 17px;
+    text-align: center;
+    float: left;
+}
+
+.OrderNow i{
+    /* padding-left: 17%; */
+    background-color: white;
+    padding: 9%;
+    color:  #dc4236;
+    margin-left: 5%;
+    margin-right: -17%;
+    
+}
+
+.OrderNow :hover h3{
+    color: white;
+    background-color: #dc4236;
+}
+
+.OrderNow :hover i{
+    color: white;
+    background-color: #c73d33;
+}
+
+
+.ContactUs i{
+    float: right;
+    padding-right: 10%;
+}
+
+.ContactUs :hover h3{
+    background-color: white;
+    color: #dc4236;
+}
+
+/* .ContactUs img{
+    margin-left: 13%;
+    color: white;
+} */
+/* 
+.ContactUs h3 :hover{
+    background-color: white;
+    color: #dc4236;
+} */
+
+
+
+
+
+
+.sideimgs{
+    padding-top: 2.5%;
+    margin-left: -1%;
+    float: left;
+    width: 100%;
+    height: 0px;
+   
+
+}
+
+#cam{
+    float: left;
+    
+}
+
+#cup{
+    float: right;
+    margin-left: 1%;
+    margin-bottom: 0%;
+    
+    
+}
+
+/* Portfolio section */
+
+.portfolio{
+    background: url('../assets/images/portfolio_bg.png');
+    margin-top: 14%;
+    padding-bottom: 190px;
+}
+
+.port_title{
+    text-align: center;
+    padding-top: 7.5%;
+    
+
+   
+}
+ .port_title h2{
+    font-size: 41px;
+    font-family: Raleway, sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 0%;
+    
+ 
+ }
+ .heading_portfolio p{
+     text-align: center;
+     padding-left: 22%;
+     padding-right: 23%;
+     font-size: 15.99px;
+     color: #928c8b;
+     padding-top: 1.5%;
+     font-family: Raleway, sans-serif;   
+     line-height: 22.99px; 
+ }
+
+
+
+.heading_portfolio .portfolio_nav ul li{
+    display: inline-block;
+    /* padding: 1%; */
+    padding-top: 0.6%;
+    padding-bottom: 0.6%;
+    padding-left: 1.6%;
+    padding-right: 1.6%;
+    border: 1px solid #cbc6c5;
+    font-size: 14.99px;
+    text-transform: uppercase;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    margin-left: 1%;
+     
+}
+
+    .heading_portfolio .portfolio_nav ul{
+    text-align: center;
+    margin-top: 2.4%;
+    margin-left: 0%;
+   
+   
+}
+
+.heading_portfolio .portfolio_nav ul a{
+    text-decoration: none;
+    color: #928c8b;
+    
+}
+
+/* .heading_portfolio .portfolio_nav ul li :hover{
+    color: #dc4236;
+    border-color: #dc4236;
+  
+} */
+
+.heading_portfolio .portfolio_nav ul :hover{
+    border-color: #dc4236;
+    color: #dc4236;
+}
+
+.portfolioImages{
+    padding-left: 19%;
+    
+}
+
+#digital{
+    padding-top: 0.15%;
+}
+
+.portfolioImages .featured{
+    width: 53.67%;
+    float: left;
+    
+
+}
+
+.viewall{
+    text-align: center;
+    
+    font-family: Raleway, sans-serif;   
+    color: #dc4236;
+    margin-top: 82px;
+    font-weight: bold;
+    
+  
+  
+}
+
+.viewall p{
+    border: 1px solid #dc4236;
+    width: 169px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 14.99px;
+    line-height: 16.99px;
+    margin-left: 32%;
+     /* text-align: center; */
+}
+
+.viewall p:hover{
+    border-color: white;
+}
+
+.viewall a{
+    color: white;
+   
+}
+
+.viewall i{
+    float: right;
+    margin-right: 15%;
+}
+
+.viewall a :hover{
+    color: #dc4236;
+}
+
+.book_left{
+    float: left;
+    padding-top: 8%;
+    margin-left: -3%;
+}
+
+.phone_right{
+    float: right;
+
+}
+
+/* Contact-Heading */
+
+.contact{
+    margin-top: 120px;
+}
+.contactHeading h3{
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    font-size: 41px;
+    width: 92%;
+    
+    margin-bottom: 0%;
+    line-height: 19.99px;
+}
+
+.contactHeading .solid{
+    margin-left: 46%;
+    margin-top: 1.5%;
+    margin-bottom: 1.7%;
+}
+
+.contactSubHeading p{
+    text-align: center;
+    padding-left: 22%;
+    padding-right: 23%;
+    color: #928c8b;
+    font-size: 15.99px;
+    font-family: Raleway, sans-serif;   
+    line-height: 22.99px; 
+}
+
+.img_con_building{
+    margin-top: 94px;
+}
+
+
+
+.buildingImage{
+    float: left;
+    width: 55%;
+    padding-left: 382px;
+    padding-right: 37px;
+    
+}
+
+
+
+.contact_text h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    letter-spacing: 3px;
+    line-height: 23.62px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.contact_text h3{
+    font-family: OpenSans, sans-serif;
+    color: #dc4236;
+    font-size: 15px;
+    line-height: 36px;
+}
+
+.contact_text h5{
+    width: 85%;
+    font-family: OpenSans, sans-serif;
+    color: #928c8b;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.contact_text p{
+    width: 85%;
+    font-family: OpenSans, sans-serif;
+    color: #928c8b;
+    font-size: 15px;
+    line-height: 27px;
+
+}
+
+
+.links button{
+    /* padding: 1%; */
+    padding-bottom: 14px;
+    padding-top: 14px;
+    margin-top: 0.4%;
+    color: red;
+    font-weight: 700;
+    font-family: OpenSans, sans-serif;
+    font-size: 14px;
+    width: 10%;
+   
+}
+
+.links img{
+    float: right;
+    padding-right: 8%;
+}
+
+
+.titleReachus{
+    float: left;
+    width: 610px;
+    margin-left: 379px;
+    margin-top: 2.4%;
+}
+
+.titleReachus h2{
+    font-family: Bebas Neue,sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000000;
+
+}
+
+.subTitleReachUs h4{
+    width: 425px;
+    font-family: OpenSans, sans-serif;
+    color: #928c8b;
+    font-size: 16px;
+    line-height: 23px;
+    
+}
+
+.subTitleReachUs p{
+    font-size: 15px;
+    color: #726a69;
+    margin-bottom: 0%;
+    padding-top: 1%;
+    
+}
+
+.igs{
+    padding-top: 1%;
+    
+}
+
+#info{
+    color: #dc4236;
+    margin-top: 0.4%;
+    margin-bottom: 2%;
+}
+.imageEmail img, .imagePhone img, .imageLocation img{
+    float: left;
+    margin-right: 46px;
+    
+}
+
+.imageEmail p, .imageLocation p, .imagePhone p{
+    font-weight: bold;
+    color: #726a69;
+}
+
+
+.imageReachUs{
+    padding-top: 6%;
+    width: 90%;
+}
+
+.imageReachUs .irs{
+    float: left;
+}
+
+
+.contact_form h2{
+    margin-top: 0.5%;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Bebas Neue, sans-serif;
+    letter-spacing: 2px;
+   
+}
+.contact_form input,textarea{
+    width: 550px;
+    font-family: BenchNine, sans-serif;
+    font-size: 19px;
+    text-transform: uppercase;
+    padding-top: 24px;
+    padding-left: 2%;
+    padding-bottom: 24px;
+    box-shadow: 3px 3px 6px -2px black;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+}
+
+.contact_form button{
+   
+    font-family: Bebas,sans-serif;
+    font-size: 17px;
+    height: 60px;
+    width: 550px;
+    color: #dc4236;
+    background-color: white;
+    border: 1px solid rgb(177, 176, 176);
+    box-shadow: none;
+    text-align: center;
+
+}
+
+.button :hover{
+    background-color: #dc4236;
+    color: white;
+}
+
+
+.contact_form i{
+    /* margin-left: 380px; */
+    float: right;
+    padding-right: 2%;
+}
+
+footer{
+    margin-top: 173px;
+    background-color: #ededed;
+    padding: 4%;
+    font-family: BenchNine, sans-serif;
+    font-size: 21px;
+    color: #7c7574;
+    line-height: 40px;
+
+    
+}
+
+#cup1{
+    float: right;
+    margin-left: 1%;
+    padding-top: 6%;
+    
+}
